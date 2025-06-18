@@ -1,0 +1,46 @@
+.button {
+  width: 100%;
+  padding: 16px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button--primary {
+  background-color: #1787FC;
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: #1787FC;
+}
+
+.button--secondary {
+  background-color: white;
+  color: #1787FC;
+  border: 2px solid #1787FC;
+}
+
+.button--secondary:hover {
+  background-color: #eff6ff;
+}
+
+.button--tertiary {
+  background-color: white;
+  color: #1f2937;
+  border: 2px solid #213053;
+}
+
+.button--tertiary:hover {
+  background-color: #c7c7c9;
+  color: #1f2937;
+  border: 2px solid #213053;
+}

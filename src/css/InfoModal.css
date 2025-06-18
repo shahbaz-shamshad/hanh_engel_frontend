@@ -1,0 +1,7 @@
+.info-modal-content p {
+  margin-bottom: 1rem;
+}
+
+.info-modal-content p:last-child {
+  margin-bottom: 0;
+}

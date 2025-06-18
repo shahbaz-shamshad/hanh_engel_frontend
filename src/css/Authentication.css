@@ -1,0 +1,53 @@
+.split-layout {
+  display: flex;
+  height: calc(100vh - 80px); /* Adjust based on navbar height */
+}
+
+.image-side {
+  flex: 1;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.feature-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.overlay-content {
+  position: absolute;
+  bottom: 20px;
+  right: -30px;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+}
+
+.overlay-content h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.overlay-content p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.content-side {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}

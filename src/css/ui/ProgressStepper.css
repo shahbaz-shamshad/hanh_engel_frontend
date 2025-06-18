@@ -1,0 +1,54 @@
+.progress-stepper {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.progress-bar {
+  position: relative;
+  height: 4px;
+  background-color: #e0e0e0;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.progress-fill {
+  position: absolute;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.step-indicator {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-indicator.active {
+  background-color: #007bff;
+}
+
+.step-indicator:first-child {
+  left: 0%;
+}
+
+.step-indicator:last-child {
+  left: 100%;
+}
+
+.step-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.step-label.active {
+  color: #007bff;
+  font-weight: 500;
+}
