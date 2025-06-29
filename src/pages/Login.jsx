@@ -8,7 +8,7 @@ const LoginPage = () => {
   return (
     <div className="login-page">
       <Navbar />
-      <AuthenticationLayout imageSrc="src/assets/registration-bg.svg">
+      <AuthenticationLayout imageSrc="/assets/registration-bg.svg">
         <LoginForm />
       </AuthenticationLayout>
     </div>

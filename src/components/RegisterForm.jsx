@@ -25,6 +25,7 @@ const RegisterForm = () => {
       );
       
       if (response.data.success) {
+        localStorage.setItem("email", email);
         navigate("/verify-email", {
           state: { 
             email: email,

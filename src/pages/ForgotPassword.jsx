@@ -7,7 +7,7 @@ const ForgotPasswordPage = () => {
   return (
     <div className="forgot-password-page">
       <Navbar />
-      <AuthenticationLayout imageSrc="src/assets/registration-bg.svg">
+      <AuthenticationLayout imageSrc="/assets/registration-bg.svg">
         <ForgotPasswordForm />
       </AuthenticationLayout>
     </div>

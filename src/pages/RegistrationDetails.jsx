@@ -8,7 +8,7 @@ const RegistrationDetailsPage = () => {
     <div>
       <Navbar />
       <AuthenticationLayout 
-        imageSrc="src\assets\registration-bg.svg"
+        imageSrc="/assets\registration-bg.svg"
       >
         <RegistrationDetailsForm />
       </AuthenticationLayout>

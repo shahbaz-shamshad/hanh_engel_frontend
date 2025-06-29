@@ -21,18 +21,18 @@ const RegistrationDetailsForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // const email = localStorage.getItem("email");
-    // console.log("email being sent:", email);
-    const token = localStorage.getItem("token");
-    if (!token) {
-    alert("Please login first");
-    navigate("/login");
-    return;
-    }
+    const email = localStorage.getItem("email");
+    console.log("email being sent:", email);
+//     const token = localStorage.getItem("token");
+//     if (!token) {
+//     alert("Please login first");
+//     navigate("/login");
+//     return;
+//     }
 
-// Simple JWT decode (without verification)
-    const payload = JSON.parse(atob(token.split('.')[1])); 
-    const email = payload.email;
+// // Simple JWT decode (without verification)
+//     const payload = JSON.parse(atob(token.split('.')[1])); 
+//     const email = payload.email;
 
     console.log("Form submitted:", { profileImage, infoA, infoB });
     // Navigate to next step or process form

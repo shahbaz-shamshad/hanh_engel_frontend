@@ -8,7 +8,7 @@ const EmailVerificationPage = () => {
     <div>
       <Navbar />
       <AuthenticationLayout 
-        imageSrc="src/assets/registration-bg.svg"
+        imageSrc="/assets/registration-bg.svg"
       >
         <EmailVerificationForm email="hey@sevengb.de" />
       </AuthenticationLayout>
